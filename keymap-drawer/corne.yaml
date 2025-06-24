@@ -69,7 +69,7 @@ layers:
   - {t: '0', h: RGUI, s: )}
   - {t: \, s: '|'}
   - {t: '=', s: +}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '{'
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '[', s: '{'}
@@ -78,7 +78,7 @@ layers:
   - {t: ']', s: '}'}
   - {t: ',', s: <}
   - {t: ., s: '>'}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '}'
   - {t: '-', s: _}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {type: held}
@@ -111,12 +111,12 @@ layers:
   - {t: '$$mdi:arrow-right-bold$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:volume-off$$', h: RGUI}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - BT CLR ALL
   - $$mdi:volume-low$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {h: '$$mdi:arrow-up-bold$$', s: '$$mdi:bluetooth-connect$$'}
-  - {h: '$$mdi:arrow-down-bold$$', s: '$$mdi:bluetooth-connect$$'}
   - $$mdi:bluetooth-off$$
+  - {h: '$$mdi:arrow-down-bold$$', s: '$$mdi:bluetooth-connect$$'}
+  - {h: '$$mdi:arrow-up-bold$$', s: '$$mdi:bluetooth-connect$$'}
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
   - {h: '3', s: '$$mdi:bluetooth-connect$$'}
@@ -131,16 +131,16 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   '3':
   - $$mdi:keyboard-esc$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '&soft_off'
   - '&mkp MB2'
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - '&mkp MB1'
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - PRINTSCREEN
   - '&mkp MB3'
-  - {t: '7', s: '&'}
-  - {t: '8', s: '*'}
-  - {t: '9', s: (}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - KP 7
+  - KP 8
+  - KP 9
+  - KP NUMLOCK
   - Ctl+Alt+$$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:pan-right$$
@@ -149,9 +149,9 @@ layers:
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - $$mdi:pan-up$$
   - '&mkp MB1'
-  - {t: '4', h: '$$mdi:apple-keyboard-shift$$', s: $}
-  - {t: '5', h: '$$mdi:apple-keyboard-option$$', s: '%'}
-  - {t: '6', h: '$$mdi:apple-keyboard-control$$', s: ^}
+  - {t: KP 4, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: KP 5, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: KP 6, h: '$$mdi:apple-keyboard-control$$'}
   - {t: '0', h: RGUI, s: )}
   - RGB TOG
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -161,11 +161,11 @@ layers:
   - '&mkp MB5'
   - $$mdi:pan-down$$
   - '&mkp MB2'
-  - {t: '1', s: '!'}
-  - {t: '2', s: '@'}
-  - {t: '3', s: '#'}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - RGB COLOR HSB(56,78,47)
+  - KP 1
+  - KP 2
+  - KP 3
+  - KP DOT
+  - RGB COLOR HSB(56,100,50)
   - RGB BRI
   - {type: held}
   - RGB EFF
