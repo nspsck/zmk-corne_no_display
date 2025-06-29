@@ -122,7 +122,7 @@ layers:
   - {h: '3', s: '$$mdi:bluetooth-connect$$'}
   - {h: '4', s: '$$mdi:bluetooth-connect$$'}
   - PLAY PAUSE
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {h: '5', s: '$$mdi:bluetooth-connect$$'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -165,7 +165,7 @@ layers:
   - KP 2
   - KP 3
   - KP DOT
-  - RGB COLOR HSB(56,100,50)
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - RGB BRI
   - {type: held}
   - RGB EFF
