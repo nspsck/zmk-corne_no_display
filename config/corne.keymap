@@ -3,6 +3,7 @@
  *
  * SPDX-License-Identifier: MIT
  */
+
 #define ZMK_POINTING_DEFAULT_MOVE_VAL 1200  // 600
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 25   // 10
 
@@ -57,10 +58,10 @@
 
         layer_1 {
             bindings = <
-&kp LS(TILDE)  &kp LS(EXCL)  &kp LS(AT)    &kp LS(POUND)  &kp LS(DLLR)  &kp LS(PRCNT)    &kp LS(CARET)  &kp LS(AMPS)   &kp LS(STAR)  &kp LS(LPAR)  &kp LS(RPAR)  &kp LS(PIPE)
-&kp GRAVE      &mt LGUI N1   &mt LCTRL N2  &mt LALT N3    &mt LSHFT N4  &kp N5           &kp N6         &mt RSHIFT N7  &mt RALT N8   &mt RCTRL N9  &mt RGUI N0   &kp BSLH
-&kp EQUAL      &kp LBRC      &kp BSPC      &none          &kp LBKT      &kp LS(LPAR)     &kp LS(RPAR)   &kp RBKT       &kp COMMA     &kp DOT       &kp RBRC      &kp MINUS
-                                           &none          &trans        &none            &kp SPACE      &trans         &none
+&kp LS(TILDE)  &kp LS(EXCL)  &kp LS(AT)    &kp LS(POUND)  &kp LS(DLLR)  &kp LS(PRCNT)    &kp LS(CARET)  &kp LS(AMPS)   &kp LS(STAR)  &kp PIPE      &kp BSLH     &none
+&kp GRAVE      &mt LGUI N1   &mt LCTRL N2  &mt LALT N3    &mt LSHFT N4  &kp N5           &kp N6         &mt RSHIFT N7  &mt RALT N8   &mt RCTRL N9  &mt RGUI N0  &none
+&none          &none         &kp LBKT      &kp LBRC       &kp LPAR      &none            &none          &kp RPAR       &kp RBRC      &kp RBKT      &none        &none
+                                           &none          &trans        &none            &none          &trans         &none
             >;
         };
 
