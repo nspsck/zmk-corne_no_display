@@ -165,7 +165,7 @@ layers:
   - KP 2
   - KP 3
   - KP DOT
-  - '&default_report'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - RGB BRI
   - {type: held}
   - RGB EFF
